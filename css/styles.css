@@ -1,0 +1,125 @@
+:root{
+    --blanco:#ffffff;
+    --oscuro: #EB6440;
+    --primario: #D6E4E5;
+    --secundario:#497174;
+    --gris: #EFF5F5;
+    --grisClaro: #dfe9f3;
+}
+
+@media (min-width: 780px) {
+    .boton{width: auto;}
+}
+
+html {
+    font-size: 65.5%
+}
+
+body {
+    font-family: 'Fragment Mono', monospace;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: #202020;
+}
+
+.boton{
+    background-color: var(--secundario);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    color:var(--blanco);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    border: none;
+    width:80%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 3.8rem;
+    color: var(--primario);
+    text-align: center;
+}
+
+.bg-color{
+    background-color: var(--secundario);
+    border-radius: 3rem;
+}
+
+.sombra {
+    background-color: var(--blanco);
+    box-shadow: 1px -2px 11px 0px rgba(87,86,87,1);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.navegacion-principal {
+    height:5rem ;
+    margin:2rem auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.navegacion-principal a {
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 10px;
+    border-radius: 5rem;
+}
+
+.navegacion-principal a:hover {
+    text-decoration: none;
+    color: var(--white);
+    background-color:var(--primario);
+    margin: 0.15rem;
+}
+
+.redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.location {
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    font-size: 1rem;
+    color: var(--primario);
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.nombreredes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titlespage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textpage {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 3rem;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;  
+}
