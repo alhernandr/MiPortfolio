@@ -22,20 +22,10 @@ body {
     background-color: #202020;
 }
 
-/*.boton{
+.bg-color{
     background-color: var(--secundario);
-    padding: 1rem 3rem;
-    margin-top: 2rem;
-    color:var(--blanco);
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2rem;
-    text-transform: uppercase;
-    border-radius: .5rem;
-    border: none;
-    width:80%;
-    text-align: center;
-}*/
+    border-radius: 3rem;
+}
 
 .titulo{
     font-size: 3.8rem;
@@ -43,10 +33,6 @@ body {
     text-align: center;
 }
 
-.bg-color{
-    background-color: var(--secundario);
-    border-radius: 3rem;
-}
 
 .sombra {
     background-color: var(--blanco);
@@ -54,6 +40,7 @@ body {
     padding: 2rem;
     border-radius: 1rem;
     margin: 2rem;
+    height: 20rem;
 }
 
 .navegacion-principal {
@@ -94,16 +81,7 @@ body {
     text-align: center;
 }
 
-.redes {
-    display: flex;
-    margin: 2rem;
-    justify-content: space-around;
-}
 
-.nombreredes {
-    display: flex;
-    justify-content: space-around;
-}
 
 .titlespage {
     display: flex;
@@ -117,67 +95,43 @@ body {
     flex-wrap: wrap;
 }
 
-.contacto {
-    display: flex;
-    justify-content: space-around;  
-}
-.orden0 {
-    text-align: center;
-}
 
-.orden1 {
-    text-align:center;
-    padding-left: 30rem;
-}
-
-.orden2 {
-    position:relative;
-    text-align:center;
-    padding-right:30rem;
-}
 
 .imagenpersonal {
     position: relative;
     top: 2rem;
-    left: 3rem;
+    left: 15rem;
     height: 250px;
     border-radius: 2rem;
+    float: left;
 }
 
-.icono1 {
-    height: 100px;
-    position: relative;
-    left: 45rem;
-}
-
-.icono2 {
-    height: 100px;
-    position: relative;
-    left: 50rem;
-    top: 10rem;
-}
-
-.icono3 {
+.icono {
     height: 100px;
     position:relative;
-    left: 27rem;
-    top: 18rem;   
-
+    margin-top: 2rem;
+    grid-column: auto;
+    
 }
 
-.iconoig {
-    position: relative;
+
+.social {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;
 }
 
-.iconotw {
-    position: relative;
-    left: 35rem;
+.social img {
+    height: 100px;
 }
 
-.iconofb {
-    position: relative;
+.contacto {
+    display: flex;
+    justify-content: space-around;  
 }
 
-.iconoli {
-    position: relative;
+.foot {
+    color: var(--primario);
+    text-align: center;
 }
+
