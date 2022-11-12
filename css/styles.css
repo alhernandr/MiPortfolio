@@ -112,8 +112,9 @@ body {
 
 .textpage {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     column-gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .contacto {
@@ -137,9 +138,8 @@ body {
 
 .imagenpersonal {
     position: relative;
-    top: 3rem;
-    left: 5rem;
-    bottom: 5rem;
+    top: 2rem;
+    left: 3rem;
     height: 250px;
     border-radius: 2rem;
 }
@@ -156,6 +156,7 @@ body {
     left: 50rem;
     top: 10rem;
 }
+
 .icono3 {
     height: 100px;
     position:relative;
