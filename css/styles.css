@@ -22,7 +22,7 @@ body {
     background-color: #202020;
 }
 
-.boton{
+/*.boton{
     background-color: var(--secundario);
     padding: 1rem 3rem;
     margin-top: 2rem;
@@ -35,7 +35,7 @@ body {
     border: none;
     width:80%;
     text-align: center;
-}
+}*/
 
 .titulo{
     font-size: 3.8rem;
@@ -53,6 +53,7 @@ body {
     box-shadow: 1px -2px 11px 0px rgba(87,86,87,1);
     padding: 2rem;
     border-radius: 1rem;
+    margin: 2rem;
 }
 
 .navegacion-principal {
@@ -77,11 +78,7 @@ body {
     color: var(--white);
     background-color:var(--primario);
     margin: 0.15rem;
-}
-
-.redes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    position:static;
 }
 
 .location {
@@ -99,7 +96,7 @@ body {
 
 .redes {
     display: flex;
-    margin: auto;
+    margin: 2rem;
     justify-content: space-around;
 }
 
@@ -122,4 +119,64 @@ body {
 .contacto {
     display: flex;
     justify-content: space-around;  
+}
+.orden0 {
+    text-align: center;
+}
+
+.orden1 {
+    text-align:center;
+    padding-left: 30rem;
+}
+
+.orden2 {
+    position:relative;
+    text-align:center;
+    padding-right:30rem;
+}
+
+.imagenpersonal {
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+    bottom: 5rem;
+    height: 250px;
+    border-radius: 2rem;
+}
+
+.icono1 {
+    height: 100px;
+    position: relative;
+    left: 45rem;
+}
+
+.icono2 {
+    height: 100px;
+    position: relative;
+    left: 50rem;
+    top: 10rem;
+}
+.icono3 {
+    height: 100px;
+    position:relative;
+    left: 27rem;
+    top: 18rem;   
+
+}
+
+.iconoig {
+    position: relative;
+}
+
+.iconotw {
+    position: relative;
+    left: 35rem;
+}
+
+.iconofb {
+    position: relative;
+}
+
+.iconoli {
+    position: relative;
 }
